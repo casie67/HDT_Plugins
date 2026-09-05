@@ -39,6 +39,8 @@ HDT 更新到新版本后，插件可能加载失败或行为异常。
 
 ## 狗运计算器
 
+<img width="413" height="98" alt="image_206" src="https://github.com/user-attachments/assets/f858ce88-6548-492c-8c18-0737e20040de" />
+
 ### 做什么
 
 在悬浮窗里统计每轮战斗的预测概率累加值，与实际胜平负次数并列显示：
