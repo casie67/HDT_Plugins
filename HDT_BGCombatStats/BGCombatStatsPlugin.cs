@@ -476,7 +476,7 @@ namespace HDT_BGCombatStats
             int rounds = _cntWin + _cntTie + _cntLoss;
 
             _line1.Text = "本次统计   " + _games + " 局 / " + rounds + " 轮"
-                + ((_skipped > 0) ? ("   跳过 " + _skipped + " 轮（打尸体或在出胜率前拔线）") : "");
+                + ((_skipped > 0) ? ("   跳过 " + _skipped + " 轮") : "");
             _line2.Text = "预测  " + P(_sumWin) + " : " + P(_sumTie) + " : " + P(_sumLoss);
             _line3.Text = "实际  " + _cntWin + " 胜 : " + _cntTie + " 平 : " + _cntLoss + " 负";
             _line4.Text = "淘汰  预测 " + P(_sumKillOpp) + " 对面 / " + P(_sumKillMe)
